@@ -1,6 +1,40 @@
 <div th:fragment="content">
-    <section class="container py-5">
-        <h2>Contact</h2>
-        <p>Get in touch with me.</p>
+    <section class="contact-section">
+        <div class="contact-container">
+
+            <div class="contact-left">
+                <h2>Get in Touch</h2>
+                <p class="subtitle">Have a token for you!</p>
+
+                <p class="description">
+                    If you have any inquiries or just want to say hi,
+                    please use the contact form.
+                </p>
+
+                <div class="contact-info">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        sofikulislam9757@gmail.com
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <div class="row">
+                        <input type="text" placeholder="First Name*" required>
+                        <input type="text" placeholder="Last Name*" required>
+                    </div>
+
+                    <input type="email" placeholder="Email*" required>
+
+                    <textarea rows="4" placeholder="Message"></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+        </div>
     </section>
 </div>

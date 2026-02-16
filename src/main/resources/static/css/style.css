@@ -16,7 +16,92 @@
     border-radius: 50%;
 }
 
-.hero-section {
-     padding-top: 15vh;
+.about-section {
+    background-color: #f8f9fa;
 }
 
+.about-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.profile-wrapper {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.contact-section {
+    background: linear-gradient(135deg, #f7e7dc, #fdeee4);
+    padding: 60px 0;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+    background: #fffaf6;
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-left h2 {
+    color: #a0522d;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.contact-info i {
+    color: #a0522d;
+    margin-right: 8px;
+}
+
+.contact-right {
+    flex: 1;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-right .row {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact-right button {
+    width: 100px;
+    padding: 10px;
+    background: #a0522d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
